@@ -1,0 +1,143 @@
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+.logo{
+    width: 23%;
+    padding: 1%;
+}
+nav{
+    width: 73%;
+    padding: 1%;
+    align-items: flex-start;
+}
+ul{
+    width: 50%;
+    margin-left: auto;
+}
+.logo{
+    text-align: center;
+}
+.heroImg{
+    align-items: left;
+    height: 600px;
+    padding: 25px;
+}
+
+.me{
+    align-items: left;
+    height: 300px;
+    padding: 25px;
+}
+
+.content{
+    width: 500px;
+    margin: 0 auto;
+    align-items: right;
+}
+footer{
+    background-color: #373738;
+    padding: center;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    padding: center;
+}
+html{
+    background-color: #E6E9E6;
+}
+h1{
+    color: #B9BDB8;
+    text-align: left;
+}
+h2{
+    color:#B9BDB8;
+    text-align: left;
+}
+
+/* My UX Skills Section */
+.flexContainer {
+    display: flex;
+    padding: 60px 30px;
+  }
+  .flexContainer div {
+    width: 33%;
+    padding: 25px;
+  }
+  
+  /* My Work Section */
+  .myWork {
+    padding: 60px 30px;
+    padding-top: 0;
+    background-color: #EBEBEB;
+  }
+  .workGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-areas:
+    "img1 content1"
+    "img2 content2"
+    "img3 content3"
+    ;
+  }
+  .workGrid img {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+  .img1 {
+    grid-area: img1;
+  }
+  .img2 {
+    grid-area: img2;
+  }
+  .img3 {
+    grid-area: img3;
+  }
+  .img1, .img2, .img3, .content1, .content2, .content3 {
+    padding: 80px;
+  }
+  .content1 {
+    grid-area: content1;
+  }
+  .content2 {
+    grid-area: content2;
+  }
+  .content3 {
+    grid-area: content3;
+  }
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.tabNav{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.tabNav li{
+    display: inline-block;
+    padding: 5px 15px;
+    background:#B9BDB8;
+    min-width: 100px;
+    text-align: center;
+    color:#EBEBEB;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.tabNav li.active,
+.tavNav li:hover{
+    background:#808d7d;
+}
+.tabContainerArea{}
+.tabConatiner{
+    padding: 10px;
+    background:#B9BDB8;
+    color:#EBEBEB;
+    display: none;
+}
